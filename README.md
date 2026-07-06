@@ -164,6 +164,16 @@ The **Virtual Keyboard using Hand Gesture Recognition** project demonstrates the
 This project strengthened my understanding of real-time image processing, gesture recognition, and interactive application development while improving my problem-solving and software engineering skills. It also showcases my ability to design and implement innovative solutions using modern technologies, making it a strong demonstration of my interest in AI, computer vision, and human–computer interaction.
 
 ---
+# 🎥 Project Demo
+
+The following video demonstrates the Virtual Keyboard in action, including hand detection, gesture recognition, and real-time typing.
+
+
+https://github.com/user-attachments/assets/20f1d0f1-678e-47bf-bae0-b19d9eefcdf2
+
+
+
+
 
 
 # 👩‍💻 Author
@@ -174,6 +184,6 @@ Aspiring Software Developer passionate about **Artificial Intelligence, Computer
 
 📧 Email: vaishvipatel2010@gmail.com
 
-💻 GitHub: https://github.com/yourusername
+💻 GitHub: https://github.com/vaishvipatel20
 
 
