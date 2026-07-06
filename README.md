@@ -98,3 +98,85 @@ Display Typed Character
 # 🎨 User Interface
 
 The application features a simple and interactive virtual keyboard with visual feedback. Keys change color during hover and click actions, while a translucent output panel displays the typed text in real time, providing an intuitive and user-friendly typing experience.
+
+# ✨ Key Features
+
+- Real-time hand tracking using **MediaPipe** and **CVZone**.
+- Touchless typing through gesture-based key selection.
+- Interactive virtual keyboard with hover and click animations.
+- Live text display with instant visual feedback.
+- Lightweight application requiring only a webcam and Python libraries.
+- Modular design for easy future enhancements.
+
+---
+
+# 🌍 Applications
+
+This project demonstrates the practical use of computer vision in **touchless human–computer interaction**. It can be applied in healthcare environments, public kiosks, smart classrooms, accessibility solutions, and research related to gesture recognition and interactive systems.
+
+---
+
+# 🧪 Testing
+
+The application was tested for hand detection, gesture recognition, keyboard interaction, and real-time text generation under different lighting conditions. Functional testing confirmed smooth performance, responsive key detection, and reliable typing accuracy during live execution.
+
+---
+
+# 🚀 Future Enhancements
+
+The project can be extended by adding:
+
+- Numeric and special character support
+- Backspace and Enter keys
+- Predictive text and auto-correction
+- Voice-to-text integration
+- Multi-language keyboard layouts
+- Custom gesture customization
+- Dark mode and improved UI
+- AI-based gesture recognition for enhanced accuracy
+
+---
+
+# 💻 Skills Demonstrated
+
+- Python Programming
+- Computer Vision
+- OpenCV
+- MediaPipe & CVZone
+- Real-Time Image Processing
+- Gesture Recognition
+- Object-Oriented Programming
+- Human–Computer Interaction (HCI)
+
+---
+
+
+---
+
+# 🎯 Conclusion
+
+The **Virtual Keyboard using Hand Gesture Recognition** project showcases how computer vision can replace traditional input devices with an intuitive, touchless interface. By combining OpenCV, CVZone, and MediaPipe, the application delivers an efficient and interactive typing experience while demonstrating practical knowledge of AI, gesture recognition, and software development.
+
+---
+
+# 📸 Screenshots
+
+Add screenshots or a demo GIF to showcase the application's interface and functionality.
+
+```
+images/
+├── home_screen.png
+├── typing_demo.png
+└── output_display.png
+```
+
+---
+
+# 👩‍💻 Author
+
+**Vaishvi Patel**
+
+*Aspiring Software Developer | Java | Python | React Native | SQL | Data Analytics*
+
+---
+
