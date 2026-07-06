@@ -23,3 +23,78 @@ The primary objective of this project is to develop a touchless virtual keyboard
 
 With the increasing demand for touchless technologies and natural user interfaces, gesture recognition has become an important area of computer vision. This project was developed to explore how artificial intelligence can improve human–computer interaction by replacing conventional input methods with intuitive, contactless alternatives. It also provided valuable hands-on experience in developing real-time computer vision applications using modern Python libraries and industry-relevant technologies., and smart environments.onventional hardware with more intelligent and accessible solutions.
 The resulting application demonstrates that sophisticated interaction systems can be built using free
+
+# 🛠️ Technology Stack
+
+The project was developed using modern computer vision libraries to enable real-time gesture recognition and touchless interaction.
+
+- **Python** – Core programming language used for implementing the application.
+- **OpenCV** – Captures live video, processes image frames, and renders the virtual keyboard interface.
+- **CVZone** – Simplifies hand tracking and gesture recognition using MediaPipe.
+- **MediaPipe** – Detects and tracks 21 hand landmarks for accurate finger position detection.
+- **NumPy** – Supports efficient image and numerical processing operations.
+
+---
+
+# 📂 Project Structure
+
+```
+Virtual Keyboard/
+│── keyboard.py        # Main application
+│── README.md          # Project documentation
+└── requirements.txt   # Project dependencies
+```
+
+---
+
+# 🏗️ System Architecture
+
+```
+Webcam
+   ↓
+Frame Capture
+   ↓
+Hand Detection
+   ↓
+Landmark Tracking
+   ↓
+Gesture Recognition
+   ↓
+Virtual Keyboard
+   ↓
+Text Output
+```
+
+The application captures live video through a webcam, detects the user's hand, tracks finger movements, recognizes click gestures, and displays the selected characters in real time.
+
+---
+
+# ⚙️ Working Principle
+
+The application initializes the webcam and continuously captures video frames. Using **CVZone** and **MediaPipe**, it detects hand landmarks and tracks the index fingertip as a virtual cursor. When the index finger hovers over a key and the distance between the index and middle fingers falls below a predefined threshold, the system registers it as a key press. The selected character is displayed instantly, while hover and click animations provide visual feedback for a smooth typing experience.
+
+---
+
+# 🔄 Application Workflow
+
+```
+Start Application
+        ↓
+Capture Video
+        ↓
+Detect Hand
+        ↓
+Track Finger Position
+        ↓
+Hover Over Key
+        ↓
+Detect Click Gesture
+        ↓
+Display Typed Character
+```
+
+---
+
+# 🎨 User Interface
+
+The application features a simple and interactive virtual keyboard with visual feedback. Keys change color during hover and click actions, while a translucent output panel displays the typed text in real time, providing an intuitive and user-friendly typing experience.
